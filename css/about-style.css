@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(29, 32, 39);
+}
+
+.vh-center {
+  padding: 20px;
+  width: 92%;
+  border-radius: 5px;
+  background-color: rgb(255, 162, 53);
+}

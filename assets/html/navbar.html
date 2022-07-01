@@ -1,0 +1,18 @@
+<header>
+  <div class="inner-width">
+    <i class="menu-toggle-btn fas fa-bars"></i>
+    <nav class="navigation-menu">
+  <div class="left-menu">
+    <a href="index.php"><i class="fas fa-home"></i> Home</a>
+    <a href="lihatLagu.php"><i class="fas fa-music"></i> Songs</a>
+    <a href="lihatPlaylist.php"><i class="fab fa-buffer"></i> Playlists</a>
+    <a href="lihatPodcast.php"><i class="fas fa-podcast"></i> Podcasts</a>
+    <a href="about.php"><i class="fas fa-info-circle"></i> About</a>
+  </div>
+  <div class="right-menu">
+    <a href="halamanProfil.php?username=<?= $_SESSION['username'] ?>"><i class="fas fa-user"></i> <?= $_SESSION['username'] ?></a>
+    <a href="destroy.php"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+  </div>
+    </nav>
+  </div>
+</header>

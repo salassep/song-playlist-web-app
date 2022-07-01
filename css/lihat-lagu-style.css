@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(29, 32, 39);;
+}
+
+.container {
+  margin-top: 75px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.songs-list, .action {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.songs-card {
+  justify-content: space-between;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 162, 53);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: rgb(255, 162, 53);
+  border-radius: 5px;
+}
+
+.action form{
+  display: inline-block;
+}
+
+select {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+}
+
+input {
+  font-family: 'Poppins', sans-serif;;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 2px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width:850px) {
+  .action {
+    flex-direction: column;
+  }
+  .action a {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,70 @@
+.box-right h1{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  font-weight: 500;
+}
+
+input {
+  padding: 0px 5px;
+  text-align: left;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name {
+  width: 45%;
+}
+
+.last-name {
+  width: 47%;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.picture img {
+  width: 80%;
+}
+
+.box-left {
+  text-align: center;
+}
+
+.box-left .picture {
+  margin: 0;
+}
+
+.box-left h1, .box-left p {
+  font-size: 20px;
+  margin-left: 0;
+  text-align: center;
+}
+
+.box-left h1 {
+  margin-bottom: 20px;
+}
+
+.box-left button {
+  width: 150px;
+}
+
+.vh-center {
+  width: 70%;
+}

@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(29, 32, 39);
+}
+
+.container {
+  margin-top: 75px;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.detail-song{
+  display: flex;
+  width: 92%;
+  margin: 0 auto;
+  background-color: rgb(255, 162, 53);
+  border-radius: 5px;
+  align-items: center;
+  padding: 20px;
+}
+
+.the-song {
+  text-align: center;
+  width: 40%;
+}
+
+.the-song h1{
+  width: 100%;
+  margin: 0px 0px 25px 0px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+audio {
+  width: 95%;
+}
+
+audio::-webkit-media-controls-panel {
+  padding-left: 0;
+  background-color: rgb(255, 162, 53);
+}
+
+audio::-webkit-media-controls-enclosure {
+  border-radius: 0;
+}
+
+.the-detail {
+  padding-left: 10px;
+  width: 60%;
+  line-height: 40px;
+}
+
+.the-detail a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+@media screen and (max-width:850px) {
+  .detail-song {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .the-song {
+    margin-bottom: 10px;
+  }
+
+  .the-song, .the-detail {
+    width: 100%;
+  }
+}
+

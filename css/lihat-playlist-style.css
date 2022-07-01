@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(29, 32, 39);
+}
+
+.container {
+  margin-top: 75px;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.playlists {
+  width: 92%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .card {
+  width: 200px;
+  height: 245px;
+  background-color: rgb(255, 162, 53);
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.card h1 {
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  margin: 0;
+  line-height: 245px;
+  width: 200px;
+  height: 245px;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+@media screen and (max-width:850px) {
+  .container .card {
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}

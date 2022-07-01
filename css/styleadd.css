@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(29, 32, 39);;
+}
+  
+.container {
+    margin-top: 75px;
+}
+
+.container h1 {
+    color: rgb(255, 255, 255);
+    width: 92%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.add-song{
+    display: flex;
+    width: 92%;
+    margin: 0 auto;
+    background-color: rgb(255, 162, 53);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.left-form {
+    width: 50%;
+}
+
+.right-form {
+    width: 50%;
+}
+
+input:not(#songFile, #podcastFile){
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 5px;
+    margin-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    height: 30px;
+    width: 90%;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+select {
+    margin-top: 5px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+input#songFile, input#podcastFile {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+input::-webkit-file-upload-button {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(84, 110, 229, 1);
+    border: none;
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgba(84, 110, 229, 1);
+    height: 30px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:850px) {
+    .add-song {
+        flex-direction: column;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    input#songFile, input#podcastFile {
+        text-align: center;
+        width: 90%;
+    }
+
+    label {
+        display: inline-block;
+        width: 90%;
+        text-align: left;
+    }
+
+    .left-form, .right-form {
+        width: 100%;
+    }
+}

@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 100vh;
+  background-color: rgb(29, 32, 39);
+  position: relative;
+}
+
+.orange-box {
+  width: 850px;
+  height: 450px;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  background-color: rgba(255, 162, 53, 1);
+  border-radius: 350px 350px 0 0;
+}
+
+.profile h1{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.profile {
+  width: 850px;
+  text-align: center;
+  position: absolute;
+  right: 5%;
+  top: 12%;
+}
+
+.profile img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.full-name .your-name{
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(84, 110, 229, 1);
+  padding: 2px 20px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.action a {
+  text-decoration: none;
+  color: rgba(84, 110, 229, 1);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.profile p {
+  font-size: 20px;
+  margin-top: 50px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0 50px;
+  word-wrap: break-word;
+}
+
+.cassetes {
+  width: 400px;
+  height: 250px;
+  background-image: url("../assets/img/cassettes.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.woman {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: -20px;
+  width: 600px;
+  height: 510px;
+  background-image: url("../assets/img/woman.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width:1060px) {
+  .cassetes, .woman {
+    display: none;
+  }
+  .orange-box {
+    display: none;
+  }
+  .profile {
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 162, 53, 1);
+  }
+}
